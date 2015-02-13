@@ -33,9 +33,7 @@ CREATE TABLE SIM_person
     title                 VARCHAR2 (255 CHAR) ,
     bonus                 INTEGER ,
     dept_id               INTEGER ,
-    title_1               VARCHAR2 (255 CHAR) ,
     rating                VARCHAR2 (255 CHAR) ,
-    dept_id_1             INTEGER ,
     SIM_dept_SIM_dept_ID  NUMBER NOT NULL ,
     SIM_dept_SIM_dept_ID1 NUMBER NOT NULL
   ) ;
