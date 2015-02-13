@@ -1,0 +1,268 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D242458-F050-06BA-6B9F-750F30CF3533" name="SIM_Person">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:23:44 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="089AB221-F487-BFE5-80D4-3EA3F53B3375">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:24:24 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="638DB518-3BA2-4046-29FA-6F6D00132D28">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:24:48 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="B214774A-81BF-F96A-2B56-3D3D36CEC31E">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:25:08 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="1B555840-A0DC-B81C-2D80-61A983FAD1DD">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:25:25 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="A1FFC16A-2DE1-A473-244B-D3A3E0F21AFE">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:27:18 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="ED71A914-532B-8847-0D88-F77E362A46BA">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:27:55 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="1BAF706D-B275-DE25-2E58-F7F7C58458AB">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:29:35 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="9F14EB2D-1018-968D-290F-749B952BE239">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:30:28 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="D29A6624-F4DD-77C3-3685-5E4EEA79603C">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:30:48 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="emp_id" id="435A46C4-1666-6562-0A93-AE6C947EDDB4">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:31:29 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="69D5312D-7C81-D13E-F615-370958AC947E">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:31:29 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="FB32717A-E92C-B645-5581-33066C008928">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:31:29 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="68007B53-2B6E-7637-4668-CA09A002312D">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:31:29 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="80891A45-88A6-4C29-1351-A8152F8F9CA5">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:31:46 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="D0D364BC-FA7D-4731-7531-A5E26E39466F">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:31:46 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="CD68A372-8225-9557-972B-281B06019CDE">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:31:46 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="title_1" id="C89C8DE0-2F89-10CA-FC6F-19180721882F">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:32:23 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="38204E6B-EAD5-DA38-E7FD-6D971B43BA52">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:32:23 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id_1" id="65A7CFCF-0E62-036E-2DC8-42E9A0A23469">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:32:23 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23C5515D-E4BC-95E5-DDCF-90D021D70326" name="SIM_Person PK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:24:41 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>089AB221-F487-BFE5-80D4-3EA3F53B3375</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
