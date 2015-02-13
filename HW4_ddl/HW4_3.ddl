@@ -1,25 +1,25 @@
-DROP SEQUENCE SIM_Person_seq ; 
-create sequence SIM_Person_seq 
+DROP SEQUENCE SIM_person_seq ; 
+create sequence SIM_person_seq 
 start with 100 
 increment by 1 
 nomaxvalue 
 ;
 
-create or replace trigger SIM_Person_PK_trig 
-before insert on SIM_Person
+create or replace trigger SIM_person_PK_trig 
+before insert on SIM_person
 for each row 
 begin 
-select SIM_Person_seq.nextval into :new.person_id from dual; 
+select SIM_person_seq.nextval into :new.person_id from dual; 
 end; 
 /
-alter table SIM_Person add created date ; 
-alter table SIM_Person add created_by VARCHAR2 (255) ; 
-alter table SIM_Person add row_version_number integer ; 
-alter table SIM_Person add updated date ; 
-alter table SIM_Person add updated_by VARCHAR2 (255) ; 
+alter table SIM_person add created date ; 
+alter table SIM_person add created_by VARCHAR2 (255) ; 
+alter table SIM_person add row_version_number integer ; 
+alter table SIM_person add updated date ; 
+alter table SIM_person add updated_by VARCHAR2 (255) ; 
 /
-create or replace trigger SIM_Person_AUD_trig 
-before insert or update on SIM_Person 
+create or replace trigger SIM_person_AUD_trig 
+before insert or update on SIM_person 
 for each row 
 begin 
   if inserting then 
@@ -159,11 +159,11 @@ end;
 /
 
 DROP INDEX SIM_dept_SIM_dept_ID_FK_0 ;
-CREATE INDEX SIM_dept_SIM_dept_ID_FK_0 ON SIM_Person(SIM_dept_SIM_dept_ID) ;
+CREATE INDEX SIM_dept_SIM_dept_ID_FK_0 ON SIM_person(SIM_dept_SIM_dept_ID) ;
 DROP INDEX SIM_dept_SIM_dept_ID1_FK_1 ;
-CREATE INDEX SIM_dept_SIM_dept_ID1_FK_1 ON SIM_Person(SIM_dept_SIM_dept_ID1) ;
-DROP INDEX SIM_Person_person_id_FK_2 ;
-CREATE INDEX SIM_Person_person_id_FK_2 ON SIM_proj_assn(SIM_Person_person_id) ;
+CREATE INDEX SIM_dept_SIM_dept_ID1_FK_1 ON SIM_person(SIM_dept_SIM_dept_ID1) ;
+DROP INDEX SIM_person_person_id_FK_2 ;
+CREATE INDEX SIM_person_person_id_FK_2 ON SIM_proj_assn(SIM_person_person_id) ;
 DROP INDEX SIM_project_project_id_FK_3 ;
 CREATE INDEX SIM_project_project_id_FK_3 ON SIM_proj_assn(SIM_project_project_id) ;
 DROP INDEX SIM_dept_SIM_dept_ID_FK_4 ;

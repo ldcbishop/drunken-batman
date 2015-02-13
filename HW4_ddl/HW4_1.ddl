@@ -6,7 +6,7 @@
 
 
 
-DROP TABLE SIM_Person CASCADE CONSTRAINTS ;
+DROP TABLE SIM_person CASCADE CONSTRAINTS ;
 
 DROP TABLE SIM_dept CASCADE CONSTRAINTS ;
 
@@ -14,7 +14,7 @@ DROP TABLE SIM_proj_assn CASCADE CONSTRAINTS ;
 
 DROP TABLE SIM_project CASCADE CONSTRAINTS ;
 
-CREATE TABLE SIM_Person
+CREATE TABLE SIM_person
   (
     person_id             INTEGER NOT NULL ,
     type                  VARCHAR2,
@@ -39,12 +39,12 @@ CREATE TABLE SIM_Person
     SIM_dept_SIM_dept_ID  NUMBER NOT NULL ,
     SIM_dept_SIM_dept_ID1 NUMBER NOT NULL
   ) ;
-CREATE UNIQUE INDEX SIM_Person__IDX ON SIM_Person
+CREATE UNIQUE INDEX SIM_person__IDX ON SIM_person
   (
     SIM_dept_SIM_dept_ID ASC
   )
   ;
-  ALTER TABLE SIM_Person ADD CONSTRAINT SIM_Person_PK PRIMARY KEY ( person_id ) ;
+  ALTER TABLE SIM_person ADD CONSTRAINT SIM_person_PK PRIMARY KEY ( person_id ) ;
 
 CREATE TABLE SIM_dept
   (
@@ -62,7 +62,7 @@ CREATE TABLE SIM_proj_assn
     emp_id                 INTEGER ,
     project_id             INTEGER ,
     SIM_project_project_id INTEGER NOT NULL ,
-    SIM_Person_person_id   INTEGER NOT NULL
+    SIM_person_person_id   INTEGER NOT NULL
   ) ;
 ALTER TABLE SIM_proj_assn ADD CONSTRAINT SIM_proj_assn_PK PRIMARY KEY ( assignment_id ) ;
 
@@ -75,11 +75,11 @@ CREATE TABLE SIM_project
   ) ;
 ALTER TABLE SIM_project ADD CONSTRAINT SIM_project_PK PRIMARY KEY ( project_id ) ;
 
-ALTER TABLE SIM_Person ADD CONSTRAINT SIM_Person_SIM_dept_FK FOREIGN KEY ( SIM_dept_SIM_dept_ID ) REFERENCES SIM_dept ( SIM_dept_ID ) ;
+ALTER TABLE SIM_person ADD CONSTRAINT SIM_person_SIM_dept_FK FOREIGN KEY ( SIM_dept_SIM_dept_ID ) REFERENCES SIM_dept ( SIM_dept_ID ) ;
 
-ALTER TABLE SIM_Person ADD CONSTRAINT SIM_Person_SIM_dept_FKv1 FOREIGN KEY ( SIM_dept_SIM_dept_ID1 ) REFERENCES SIM_dept ( SIM_dept_ID ) ;
+ALTER TABLE SIM_person ADD CONSTRAINT SIM_person_SIM_dept_FKv1 FOREIGN KEY ( SIM_dept_SIM_dept_ID1 ) REFERENCES SIM_dept ( SIM_dept_ID ) ;
 
-ALTER TABLE SIM_proj_assn ADD CONSTRAINT SIM_proj_assn_SIM_Person_FK FOREIGN KEY ( SIM_Person_person_id ) REFERENCES SIM_Person ( person_id ) ;
+ALTER TABLE SIM_proj_assn ADD CONSTRAINT SIM_proj_assn_SIM_person_FK FOREIGN KEY ( SIM_person_person_id ) REFERENCES SIM_person ( person_id ) ;
 
 ALTER TABLE SIM_proj_assn ADD CONSTRAINT SIM_proj_assn_SIM_project_FK FOREIGN KEY ( SIM_project_project_id ) REFERENCES SIM_project ( project_id ) ;
 

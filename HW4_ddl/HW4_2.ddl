@@ -1,17 +1,17 @@
-DROP SEQUENCE SIM_Person_seq ; 
-create sequence SIM_Person_seq 
+DROP SEQUENCE SIM_person_seq ; 
+create sequence SIM_person_seq 
 start with 100 
 increment by 1 
 nomaxvalue 
 ;
-DROP TRIGGER SIM_Person_PK_trig 
+DROP TRIGGER SIM_person_PK_trig 
 ; 
 
-create or replace trigger SIM_Person_PK_trig 
-before insert on SIM_Person
+create or replace trigger SIM_person_PK_trig 
+before insert on SIM_person
 for each row 
 begin 
-select SIM_Person_seq.nextval into :new.person_id from dual; 
+select SIM_person_seq.nextval into :new.person_id from dual; 
 end; 
 /
 
@@ -67,11 +67,11 @@ end;
 /
 
 DROP INDEX SIM_dept_SIM_dept_ID_FK_0 ;
-CREATE INDEX SIM_dept_SIM_dept_ID_FK_0 ON SIM_Person(SIM_dept_SIM_dept_ID) ;
+CREATE INDEX SIM_dept_SIM_dept_ID_FK_0 ON SIM_person(SIM_dept_SIM_dept_ID) ;
 DROP INDEX SIM_dept_SIM_dept_ID1_FK_1 ;
-CREATE INDEX SIM_dept_SIM_dept_ID1_FK_1 ON SIM_Person(SIM_dept_SIM_dept_ID1) ;
-DROP INDEX SIM_Person_person_id_FK_2 ;
-CREATE INDEX SIM_Person_person_id_FK_2 ON SIM_proj_assn(SIM_Person_person_id) ;
+CREATE INDEX SIM_dept_SIM_dept_ID1_FK_1 ON SIM_person(SIM_dept_SIM_dept_ID1) ;
+DROP INDEX SIM_person_person_id_FK_2 ;
+CREATE INDEX SIM_person_person_id_FK_2 ON SIM_proj_assn(SIM_person_person_id) ;
 DROP INDEX SIM_project_project_id_FK_3 ;
 CREATE INDEX SIM_project_project_id_FK_3 ON SIM_proj_assn(SIM_project_project_id) ;
 DROP INDEX SIM_dept_SIM_dept_ID_FK_4 ;
