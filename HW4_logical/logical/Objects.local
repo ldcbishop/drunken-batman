@@ -3,8 +3,10 @@
    <object objectType="Entity" objectID="9D242458-F050-06BA-6B9F-750F30CF3533" name="SIM_Person" seqName="seg_0"/>
    <object objectType="Entity" objectID="4CB8FF31-B829-B477-F508-E29FCC6D1665" name="SIM_dept" seqName="seg_0"/>
    <object objectType="Entity" objectID="A1C2E141-38D6-B14C-4039-9CCA3BAA851A" name="SIM_project" seqName="seg_0"/>
+   <object objectType="Entity" objectID="20822A4E-EA1F-94A4-CF2C-B9E8C7EEC464" name="SIM_project_assignment" seqName="seg_0"/>
    <object objectType="Relation" objectID="9F017BEB-47AE-5E2C-0E4F-74C2D87EFCA7" name="r2" seqName="seg_0"/>
    <object objectType="Relation" objectID="B57C6FD4-184F-0419-8DDF-B98989F19C65" name="r3v1" seqName="seg_0"/>
-   <object objectType="Relation" objectID="4376ACBF-CAA7-1808-F457-9E6583C6836C" name="r5" seqName="seg_0"/>
    <object objectType="Relation" objectID="EE0CB6A0-6B0A-4E28-41FB-64DE1BABF097" name="r6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="12F21DB6-4BF7-A8FB-47D2-F3D2148ADF8F" name="r7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0D99CE7F-35BC-34E8-EF89-1A86C6BE224E" name="r8" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>
