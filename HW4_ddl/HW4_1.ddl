@@ -17,7 +17,7 @@ DROP TABLE SIM_project CASCADE CONSTRAINTS ;
 CREATE TABLE SIM_Person
   (
     person_id             INTEGER NOT NULL ,
-    type                  VARCHAR2 ,
+    type                  VARCHAR2,
     name                  VARCHAR2 (255 CHAR) ,
     ssnum                 INTEGER ,
     gender                VARCHAR2 (255 CHAR) ,
