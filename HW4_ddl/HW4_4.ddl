@@ -84,7 +84,7 @@ BEGIN
         STATUS,
         TITLE,
         RATING,
-        DEPT_ID)
+        SIM_dept_SIM_dept_ID)
      VALUES (
         :new.PERSON_ID,
         'Project Employee',
@@ -118,7 +118,7 @@ BEGIN
         STATUS,
         TITLE,
         BONUS,
-        DEPT_ID)
+        SIM_dept_SIM_dept_ID)
      VALUES (
         :new.PERSON_ID,
         'Project Employee',
