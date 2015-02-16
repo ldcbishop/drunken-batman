@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20822A4E-EA1F-94A4-CF2C-B9E8C7EEC464" name="SIM_project_assignment">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20822A4E-EA1F-94A4-CF2C-B9E8C7EEC464" name="SIM_proj_assn">
 <createdBy>Logan Bishop</createdBy>
 <createdTime>2015-02-13 20:37:31 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2015-02-13 20:39:01 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,7 +31,7 @@
 <createdTime>2015-02-13 20:41:37 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,7 +43,7 @@
 <createdTime>2015-02-13 20:42:12 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,7 +56,7 @@
 <generatorID>12F21DB6-4BF7-A8FB-47D2-F3D2148ADF8F</generatorID>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
 </engineerTo>
 <referedAttribute>2DA66EE3-CD42-F9D9-D38F-ABC6A0A64F15</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,7 +69,7 @@
 <generatorID>0D99CE7F-35BC-34E8-EF89-1A86C6BE224E</generatorID>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
 </engineerTo>
 <referedAttribute>089AB221-F487-BFE5-80D4-3EA3F53B3375</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -83,7 +83,7 @@
 <createdTime>2015-02-13 20:41:24 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
