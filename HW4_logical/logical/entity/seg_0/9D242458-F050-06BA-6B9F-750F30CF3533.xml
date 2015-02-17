@@ -4,7 +4,11 @@
 <createdTime>2015-02-13 03:23:44 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,31 +24,51 @@
 <createdTime>2015-02-13 03:24:24 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
+<<<<<<< HEAD
 <Attribute name="type" id="E01C3B92-0A68-33E8-D918-2E23BB60EF43">
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-02-16 22:12:22 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<Attribute name="type" id="1E6B8D91-9218-2300-49BF-F089DA4AEA30">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 21:11:02 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<<<<<<< HEAD
 <dataTypeSize>255</dataTypeSize>
+=======
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </Attribute>
 <Attribute name="name" id="638DB518-3BA2-4046-29FA-6F6D00132D28">
 <createdBy>Logan Bishop</createdBy>
 <createdTime>2015-02-13 03:24:48 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,7 +81,11 @@
 <createdTime>2015-02-13 03:25:08 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,7 +97,11 @@
 <createdTime>2015-02-13 03:25:25 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,7 +114,11 @@
 <createdTime>2015-02-13 03:27:18 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,7 +130,11 @@
 <createdTime>2015-02-13 03:27:55 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -107,7 +147,11 @@
 <createdTime>2015-02-13 03:29:35 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -120,7 +164,11 @@
 <createdTime>2015-02-13 03:30:28 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -133,19 +181,41 @@
 <createdTime>2015-02-13 03:30:48 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
+<<<<<<< HEAD
+=======
+<Attribute name="emp_id" id="435A46C4-1666-6562-0A93-AE6C947EDDB4">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:31:29 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 <Attribute name="hire_date" id="69D5312D-7C81-D13E-F615-370958AC947E">
 <createdBy>Logan Bishop</createdBy>
 <createdTime>2015-02-13 20:31:29 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -157,7 +227,11 @@
 <createdTime>2015-02-13 20:31:29 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -169,7 +243,11 @@
 <createdTime>2015-02-13 20:31:29 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -182,7 +260,11 @@
 <createdTime>2015-02-13 20:31:46 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -195,7 +277,23 @@
 <createdTime>2015-02-13 20:31:46 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="CD68A372-8225-9557-972B-281B06019CDE">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:31:46 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -207,7 +305,11 @@
 <createdTime>2015-02-13 20:32:23 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -221,7 +323,11 @@
 <generatorID>907F4C45-9E6C-630D-3A7A-B7EDE1F1341A</generatorID>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <referedAttribute>5DC40C00-6A7E-059C-2AD9-ED30F434F053</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -234,7 +340,11 @@
 <generatorID>EED55EA8-B89B-6191-15DC-FDE611E6E432</generatorID>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <referedAttribute>5DC40C00-6A7E-059C-2AD9-ED30F434F053</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -248,7 +358,11 @@
 <createdTime>2015-02-13 03:24:41 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

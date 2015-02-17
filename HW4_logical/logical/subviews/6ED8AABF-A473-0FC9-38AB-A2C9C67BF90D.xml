@@ -66,8 +66,13 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
+<<<<<<< HEAD
 <point x="370" y="172"/>
 <point x="551" y="172"/>
+=======
+<point x="370" y="117"/>
+<point x="750" y="116"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </points>
 </Connector>
 </connectors>

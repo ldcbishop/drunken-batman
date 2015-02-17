@@ -1,10 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
+<<<<<<< HEAD
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20822A4E-EA1F-94A4-CF2C-B9E8C7EEC464" name="SIM_proj_assign">
+=======
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20822A4E-EA1F-94A4-CF2C-B9E8C7EEC464" name="SIM_proj_assn">
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 <createdBy>Logan Bishop</createdBy>
 <createdTime>2015-02-13 20:37:31 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,12 +28,17 @@
 <createdTime>2015-02-13 20:39:01 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
+<<<<<<< HEAD
 <Attribute name="person_id" id="ABAB1CB2-0181-49D8-BA51-A47FA4F42745">
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-02-16 22:16:53 UTC</createdTime>
@@ -33,6 +46,26 @@
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<Attribute name="emp_id" id="F006F63E-22E2-4A74-CBEC-9C88C221C89B">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:41:37 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="project_id" id="742B0604-946D-6211-0A7A-A6559BD7516D">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:42:12 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <referedAttribute>089AB221-F487-BFE5-80D4-3EA3F53B3375</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,13 +78,33 @@
 <generatorID>AA887122-E2E7-3216-7C1D-B8947D9580EB</generatorID>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <referedAttribute>2DA66EE3-CD42-F9D9-D38F-ABC6A0A64F15</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
+<<<<<<< HEAD
+=======
+<Attribute name="person_id" id="F3588C8A-0E23-09CB-0C38-16B833239930">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 20:43:38 UTC</createdTime>
+<generatorID>0D99CE7F-35BC-34E8-EF89-1A86C6BE224E</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+</engineerTo>
+<referedAttribute>089AB221-F487-BFE5-80D4-3EA3F53B3375</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6F249A41-7FD8-EAA0-577D-5FDCD75ED79E" name="SIM_project_assignment PK">
@@ -59,7 +112,11 @@
 <createdTime>2015-02-13 20:41:24 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
+<<<<<<< HEAD
 <item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+=======
+<item key="CA05DCFA-5673-8967-58FE-2E0270292504" value="true"/>
+>>>>>>> e100a8d30a3733ad8d3fad5448afe4fa041a639d
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
