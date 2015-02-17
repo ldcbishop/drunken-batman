@@ -154,8 +154,8 @@ begin
   if inserting or updating then 
     :new.updated := localtimestamp; 
     :new.updated_by := nvl(wwv_flow.g_user,user); 
-  end if; 
-end; 
+  end if;
+end;
 /
 
 DROP INDEX SIM_dept_dept_id_FK_0 ;

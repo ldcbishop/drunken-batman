@@ -49,7 +49,7 @@ select SIM_proj_assign_seq.nextval into :new.assignment_id from dual;
 end; 
 /
 
-DROP SEQUENCE SIM_project_seq ; 
+DROP SEQUENCE SIM_project_seq ;
 create sequence SIM_project_seq 
 start with 100 
 increment by 1 
