@@ -1,0 +1,272 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5943E53E-A721-B39E-0D27-D44BA180F25D" name="SIM_Person">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>9D242458-F050-06BA-6B9F-750F30CF3533</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="4FEF8D83-A4B9-2AAC-512D-0872CDFB88D1">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>089AB221-F487-BFE5-80D4-3EA3F53B3375</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="8A84D462-BE5F-8169-AB9A-7D35E04D234E">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>E01C3B92-0A68-33E8-D918-2E23BB60EF43</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="7013A8FE-CA6E-784E-1DA1-A040D6267B9D">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>638DB518-3BA2-4046-29FA-6F6D00132D28</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="AE664BB4-29FB-D405-BBB6-403BA5A4D89C">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>B214774A-81BF-F96A-2B56-3D3D36CEC31E</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="97EE8955-9ADD-0278-CC16-B69DF07578FF">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>1B555840-A0DC-B81C-2D80-61A983FAD1DD</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="D2BE1918-E39F-882B-5E45-5F9A4BBC8395">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>A1FFC16A-2DE1-A473-244B-D3A3E0F21AFE</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="B79F8C76-BA4C-1E8C-F6DA-8C301E155133">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>ED71A914-532B-8847-0D88-F77E362A46BA</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="52AB4575-3BF8-39FF-756F-CCFF41D8E6C5">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>1BAF706D-B275-DE25-2E58-F7F7C58458AB</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="3787FFDE-F66E-0EFA-843A-9FAA8350644F">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>9F14EB2D-1018-968D-290F-749B952BE239</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="FDFB4DAC-4E66-3D3F-D2F8-912CA73A996C">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>D29A6624-F4DD-77C3-3685-5E4EEA79603C</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="65FF7251-6584-B6D8-9C65-548FA7B80C2E">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>69D5312D-7C81-D13E-F615-370958AC947E</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="B06CB33E-9D4A-8656-D6EC-E030B060D069">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>FB32717A-E92C-B645-5581-33066C008928</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="B7F6A7BB-0EB7-9706-2E4C-C0A5E7C89590">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>68007B53-2B6E-7637-4668-CA09A002312D</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="7D006B50-C735-BC06-F8D1-24C423291736">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>80891A45-88A6-4C29-1351-A8152F8F9CA5</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="CD8D3C5C-465D-8B26-FCF0-CB3FEB71FD1B">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>D0D364BC-FA7D-4731-7531-A5E26E39466F</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="1047CFAA-93E1-3A82-056C-68B1D427FFC1">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>38204E6B-EAD5-DA38-E7FD-6D971B43BA52</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id1" id="6AA1BD45-4430-0F2A-5FF8-6CC61A43D9B2">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>33874F1F-1FEA-04C8-F1D5-F0639BDF5E3E</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9F74445A-547A-BD6F-E096-1FC7BF12526C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="715545EB-C820-2F95-C8FB-F2639900C1A5" referredColumn="9F74445A-547A-BD6F-E096-1FC7BF12526C"/>
+</associations>
+</Column>
+<Column name="SIM_dept_dept_id" id="1E6BA4C9-A5C2-3BEA-9554-EC8218D72F90">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>15BB9127-E074-B11E-A01A-C67F8E871F63</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9F74445A-547A-BD6F-E096-1FC7BF12526C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38B67901-E7F7-7C7B-4492-082CB25CE0A8" referredColumn="9F74445A-547A-BD6F-E096-1FC7BF12526C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D31E250-D04D-8A1A-F5A4-890A1515031B" name="SIM_Person_PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:52 UTC</createdTime>
+<generatorID>23C5515D-E4BC-95E5-DDCF-90D021D70326</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FEF8D83-A4B9-2AAC-512D-0872CDFB88D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7865A178-FACF-4A98-D1F0-4D0BF694B337" name="SIM_Person__IDX">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8DE25A9A-595C-3149-606E-5541EA45EC10</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1E6BA4C9-A5C2-3BEA-9554-EC8218D72F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21235790-013A-FD7D-F585-35795FA7C6A6" name="SIM_Person_SIM_dept_FK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>8DE25A9A-595C-3149-606E-5541EA45EC10</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E6BA4C9-A5C2-3BEA-9554-EC8218D72F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC8F21DA-86D1-CC69-05CC-9235FB31DFD1" name="SIM_Person_SIM_dept_FKv1">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>379252CA-78D9-B095-1700-0083A6D7C7AF</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AA1BD45-4430-0F2A-5FF8-6CC61A43D9B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="920E1CAB-86B3-0D47-14EA-2CF8ED816738" name="SIM_dept">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>4CB8FF31-B829-B477-F508-E29FCC6D1665</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dept_id" id="9F74445A-547A-BD6F-E096-1FC7BF12526C">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>5DC40C00-6A7E-059C-2AD9-ED30F434F053</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BA80172F-9FC1-67F4-5B84-80C56452AEE8">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>054EC2AA-C167-A5DF-805B-44AD1592B0E8</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="D38AA232-3873-EFBC-0C9F-9B1C211EEEB9">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>58F0CB72-CBC3-DCA7-D488-D1D0EC476C7B</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_id" id="D8E039CD-3757-67DB-BB63-EA04EA382FDF">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>E705046C-9563-6110-9D6B-C6A73160D921</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F193B21-30CF-B5CE-43A3-F6292BEEC9A7" name="SIM_dept_PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>69823BC0-1BBC-27DC-91CD-80BB1B915E8A</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F74445A-547A-BD6F-E096-1FC7BF12526C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

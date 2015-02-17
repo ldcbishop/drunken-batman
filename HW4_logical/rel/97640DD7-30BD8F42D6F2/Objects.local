@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="5943E53E-A721-B39E-0D27-D44BA180F25D" name="SIM_Person" seqName="seg_0"/>
+   <object objectType="Table" objectID="920E1CAB-86B3-0D47-14EA-2CF8ED816738" name="SIM_dept" seqName="seg_0"/>
+   <object objectType="Table" objectID="6F23BB37-99E9-DA39-2463-321BEDCFEC13" name="SIM_proj_assign" seqName="seg_0"/>
+   <object objectType="Table" objectID="55E1C7DB-23DE-29B9-2EF1-3F06D274655F" name="SIM_project" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="38B67901-E7F7-7C7B-4492-082CB25CE0A8" name="SIM_Person_SIM_dept_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="715545EB-C820-2F95-C8FB-F2639900C1A5" name="SIM_Person_SIM_dept_FKv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B47A9FDE-DCEF-48FE-76C0-30768774CBB4" name="SIM_proj_assign_SIM_Person_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C5EAD643-31DA-2670-2A5F-A3B7B174001E" name="SIM_proj_assign_SIM_project_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1B6FE789-32E7-3443-E368-F05920570F67" name="SIM_project_SIM_dept_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F23BB37-99E9-DA39-2463-321BEDCFEC13" name="SIM_proj_assign">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>20822A4E-EA1F-94A4-CF2C-B9E8C7EEC464</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="assignment_id" id="BDCFB5BE-43D6-EC04-0ED1-BCB5E62701EB">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>5841B3A8-DA3C-29A3-6F6B-5111AFA31960</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_Person_person_id" id="1195CD08-7B2F-AFF6-A1E6-EE1D81CCCB48">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>ABAB1CB2-0181-49D8-BA51-A47FA4F42745</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4FEF8D83-A4B9-2AAC-512D-0872CDFB88D1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B47A9FDE-DCEF-48FE-76C0-30768774CBB4" referredColumn="4FEF8D83-A4B9-2AAC-512D-0872CDFB88D1"/>
+</associations>
+</Column>
+<Column name="SIM_project_project_id" id="DF1A318D-D43C-BB11-70E7-987A056CBEA6">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>6F16D1C1-6DB2-1AF3-559F-077E417957E8</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C75101EE-EAC7-F3E9-16A8-FB9E414544D4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5EAD643-31DA-2670-2A5F-A3B7B174001E" referredColumn="C75101EE-EAC7-F3E9-16A8-FB9E414544D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA81156F-BEF9-AD78-BF07-D422427DC747" name="SIM_proj_assign_PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>6F249A41-7FD8-EAA0-577D-5FDCD75ED79E</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDCFB5BE-43D6-EC04-0ED1-BCB5E62701EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2EA76AD-C7D3-0E97-C19E-A3415666681C" name="SIM_proj_assign_SIM_project_FK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>AA887122-E2E7-3216-7C1D-B8947D9580EB</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF1A318D-D43C-BB11-70E7-987A056CBEA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75D939F1-A6F1-9C13-8D84-FE2B77A0884E" name="SIM_proj_assign_SIM_Person_FK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 23:25:53 UTC</createdTime>
+<generatorID>0153FA69-7E4F-AE7C-DD21-25E7D8F94C25</generatorID>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1195CD08-7B2F-AFF6-A1E6-EE1D81CCCB48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,7 +4,7 @@
 <createdTime>2015-02-13 03:38:27 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +20,8 @@
 <createdTime>2015-02-13 03:38:41 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -32,7 +31,7 @@
 <createdTime>2015-02-13 03:38:56 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +44,7 @@
 <createdTime>2015-02-13 03:39:09 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,12 +52,12 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255 CHAR</dataTypeSize>
 </Attribute>
-<Attribute name="emp_id" id="E705046C-9563-6110-9D6B-C6A73160D921">
+<Attribute name="person_id" id="E705046C-9563-6110-9D6B-C6A73160D921">
 <createdBy>Logan Bishop</createdBy>
 <createdTime>2015-02-13 03:39:30 UTC</createdTime>
 <ownerDesignName>HW4_logical</ownerDesignName>
 <engineerTo>
-<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+<item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,4 +65,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69823BC0-1BBC-27DC-91CD-80BB1B915E8A" name="{entity} PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-02-16 22:13:36 UTC</createdTime>
+<ownerDesignName>HW4_logical</ownerDesignName>
+<engineerTo>
+<item key="97640DD7-6CA1-20EC-9FFE-30BD8F42D6F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DC40C00-6A7E-059C-2AD9-ED30F434F053</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
