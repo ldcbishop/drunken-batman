@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1C2E141-38D6-B14C-4039-9CCA3BAA851A" name="SIM_project">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:36:03 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_id" id="2DA66EE3-CD42-F9D9-D38F-ABC6A0A64F15">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:36:18 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="FC2FA3D0-B82C-B129-BF04-B613C0CD3608">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:36:35 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="6614B9DC-A787-8816-2842-8646CEB869F5">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:36:52 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC145A4D-1950-C3E1-825C-40C35F17097B" name="SIM_project PK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:36:31 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DA66EE3-CD42-F9D9-D38F-ABC6A0A64F15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

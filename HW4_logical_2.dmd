@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HW4_logical" id="2315D8FD-6378-C34C-3F11-0053E876F72C" version="3.5">
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HW4_logical_2" id="2315D8FD-6378-C34C-3F11-0053E876F72C" version="3.5">
 <createdBy>Logan Bishop</createdBy>
 <createdTime>2015-02-13 03:22:36 UTC</createdTime>
 <ownerDesignName>HW4</ownerDesignName>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="ACDDB1CC-2379-FF57-8EED-8BA9A846F555" name="SIM_Person" seqName="seg_0"/>
+   <object objectType="Table" objectID="0093645C-D175-EA24-E2C8-9435219A28AA" name="SIM_dept" seqName="seg_0"/>
+   <object objectType="Table" objectID="548575D6-B4FA-47AE-5EAF-DA688DECD7BE" name="SIM_project" seqName="seg_0"/>
+   <object objectType="Table" objectID="C335831E-743F-398B-8665-B066AF05ED29" name="SIM_project_assignment" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="25349337-0710-38BB-8456-CDE899C6FFE6" name="SIM_Person_SIM_dept_FK" seqName="seg_0" containerID="ACDDB1CC-2379-FF57-8EED-8BA9A846F555" refContainerID="0093645C-D175-EA24-E2C8-9435219A28AA"/>
+   <object objectType="FKIndexAssociation" objectID="C01F821C-1126-49E6-6D3F-03188A63C88F" name="SIM_Person_SIM_dept_FKv1" seqName="seg_0" containerID="ACDDB1CC-2379-FF57-8EED-8BA9A846F555" refContainerID="0093645C-D175-EA24-E2C8-9435219A28AA"/>
+   <object objectType="FKIndexAssociation" objectID="CE9AAE08-7AE6-84C1-CE24-13620AC816A7" name="SIM_project_SIM_dept_FK" seqName="seg_0" containerID="548575D6-B4FA-47AE-5EAF-DA688DECD7BE" refContainerID="0093645C-D175-EA24-E2C8-9435219A28AA"/>
+   <object objectType="FKIndexAssociation" objectID="BE4B4877-5A79-824E-91A5-03F692B1A8B9" name="SIM_project_assignment_SIM_Person_FK" seqName="seg_0" containerID="C335831E-743F-398B-8665-B066AF05ED29" refContainerID="ACDDB1CC-2379-FF57-8EED-8BA9A846F555"/>
+   <object objectType="FKIndexAssociation" objectID="38B16CDD-1B08-6F53-DD8E-2B46937B829E" name="SIM_project_assignment_SIM_project_FK" seqName="seg_0" containerID="C335831E-743F-398B-8665-B066AF05ED29" refContainerID="548575D6-B4FA-47AE-5EAF-DA688DECD7BE"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

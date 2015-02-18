@@ -1,0 +1,268 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACDDB1CC-2379-FF57-8EED-8BA9A846F555" name="SIM_Person">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>9D242458-F050-06BA-6B9F-750F30CF3533</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="E2671AA4-CEC2-5944-61F5-7619EDB968C0">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>0542436D-C4E5-9B75-DAC1-37DACB73A48C</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="31636EF4-F6E7-00A0-AC50-F4E9146D8391">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>8FF02698-5250-565E-8540-D195DF1504C6</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="6F126FE7-C560-A1BC-6EBE-745ED77AAB85">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>328A957F-056F-4C8E-4FFF-07A13B7A41E8</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="22AF2265-167E-8974-E3FD-9B5B86A7646B">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>27CC16D7-DFD3-1067-16B1-C6413E4696A2</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="52AD1C35-B461-B507-B71C-A03B78922FE8">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>7B6A76BF-9959-C0E1-5F70-61BCAF7C7A50</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="1EDC534C-1F02-3D4D-E020-E174E30DC79A">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>FA2537AE-FE6F-97C5-8EC5-6AEA52EC8591</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="72AF0AFB-956C-6D29-5F0F-DBA73D916DB7">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>0934B6CB-A347-9A95-20F2-8CE29198D55F</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="9F2E9431-3C29-C502-69DD-FD766BF70B81">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>99CE9F0A-F3F3-64FC-4550-2EDD2A362497</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="434AD5AA-626F-21AE-98EC-71B2B8CB52B5">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>308B3834-6DA6-AA2A-7E30-6CA21A84E7D9</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="06C17301-5300-DCA9-8F23-8F2637CD8C7F">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>1A0B5AEC-9FA6-E632-9B9A-C41AEA5DE964</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="46EA176C-FB31-B274-D390-815FBF3BE708">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>8BFC9BB7-BB74-F7B5-BD47-99445814E776</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="A237763D-3D50-B669-1691-0A93AA5DF13B">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>43A80585-8E92-8EA1-1447-61E969D96FD8</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="75AADAEA-146C-21F2-29D8-93500458DEAF">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>13D446C2-3501-ECE8-9916-8053D8896F5A</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="5DD44356-D7E0-1373-CEDC-9242783D4671">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>0E394F59-1DEC-119E-8EEA-D1B0A41D213C</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="DBE9F838-00F1-DC7A-1A9D-632C388BBA74">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>91F732A9-A655-0B08-E222-9E5276E1DCF1</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="6FBC08F0-2F32-0F42-BF7E-5D4F96FFC5E7">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>F51DAA27-98AC-2BF7-B230-24E1504AF0CC</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_SIM_dept_ID" id="34508AB7-13D7-715B-983A-8BC7EA72C243">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25349337-0710-38BB-8456-CDE899C6FFE6" referredColumn="F5ECC951-EB39-D2FF-9183-E9903F44C60C"/>
+</associations>
+</Column>
+<Column name="SIM_dept_SIM_dept_ID1" id="38EA78FC-FAAA-9094-6496-D33D2D9985B5">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C01F821C-1126-49E6-6D3F-03188A63C88F" referredColumn="F5ECC951-EB39-D2FF-9183-E9903F44C60C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC63AA70-F119-8022-2F59-6FA7F07AA94D" name="SIM_Person_PK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>23C5515D-E4BC-95E5-DDCF-90D021D70326</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2671AA4-CEC2-5944-61F5-7619EDB968C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC761C19-9B9B-3AB3-1101-7101B25C31D4" name="SIM_Person__IDX">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B57C6FD4-184F-0419-8DDF-B98989F19C65</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="34508AB7-13D7-715B-983A-8BC7EA72C243"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98DF5A42-9607-4B23-8B46-56D473D58889" name="SIM_Person_SIM_dept_FK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>B57C6FD4-184F-0419-8DDF-B98989F19C65</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34508AB7-13D7-715B-983A-8BC7EA72C243"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F91DEA99-0BB4-CEBE-CEA3-155BC897FF89" name="SIM_Person_SIM_dept_FKv1">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>EE0CB6A0-6B0A-4E28-41FB-64DE1BABF097</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38EA78FC-FAAA-9094-6496-D33D2D9985B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

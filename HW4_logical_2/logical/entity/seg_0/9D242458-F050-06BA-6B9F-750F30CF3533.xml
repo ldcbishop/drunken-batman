@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D242458-F050-06BA-6B9F-750F30CF3533" name="SIM_Person">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:23:44 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="0542436D-C4E5-9B75-DAC1-37DACB73A48C">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:15:08 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="8FF02698-5250-565E-8540-D195DF1504C6">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:15:41 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="name" id="328A957F-056F-4C8E-4FFF-07A13B7A41E8">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:19:29 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="27CC16D7-DFD3-1067-16B1-C6413E4696A2">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:20:09 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="7B6A76BF-9959-C0E1-5F70-61BCAF7C7A50">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:20:20 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="FA2537AE-FE6F-97C5-8EC5-6AEA52EC8591">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:20:36 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="0934B6CB-A347-9A95-20F2-8CE29198D55F">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:21:03 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="99CE9F0A-F3F3-64FC-4550-2EDD2A362497">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:21:32 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="state " id="308B3834-6DA6-AA2A-7E30-6CA21A84E7D9">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:21:52 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="1A0B5AEC-9FA6-E632-9B9A-C41AEA5DE964">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:23:01 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="8BFC9BB7-BB74-F7B5-BD47-99445814E776">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:23:14 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="43A80585-8E92-8EA1-1447-61E969D96FD8">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:23:30 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="13D446C2-3501-ECE8-9916-8053D8896F5A">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:23:43 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="0E394F59-1DEC-119E-8EEA-D1B0A41D213C">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:24:02 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="91F732A9-A655-0B08-E222-9E5276E1DCF1">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:24:23 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="rating" id="F51DAA27-98AC-2BF7-B230-24E1504AF0CC">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-17 21:25:11 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23C5515D-E4BC-95E5-DDCF-90D021D70326" name="SIM_Person PK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-13 03:24:41 UTC</createdTime>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<engineerTo>
+<item key="50794C00-72DD-3CF4-E2B9-12AF62AF91F1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0542436D-C4E5-9B75-DAC1-37DACB73A48C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

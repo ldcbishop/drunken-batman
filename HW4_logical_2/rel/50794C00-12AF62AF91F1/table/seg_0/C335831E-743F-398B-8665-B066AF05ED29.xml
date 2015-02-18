@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C335831E-743F-398B-8665-B066AF05ED29" name="SIM_project_assignment">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>20822A4E-EA1F-94A4-CF2C-B9E8C7EEC464</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="assignment_id" id="1FAE81EC-255C-9930-8B73-2B335D13586D">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>5841B3A8-DA3C-29A3-6F6B-5111AFA31960</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_id" id="F46F34DB-7354-F046-302D-EF01FACFA5AE">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>F006F63E-22E2-4A74-CBEC-9C88C221C89B</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_id" id="B818EAD5-61BD-9EBB-7ADE-228563727C70">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>742B0604-946D-6211-0A7A-A6559BD7516D</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_project_project_id" id="77597632-4ABD-0B9B-037E-F2973A58ADE2">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>081DA12B-D664-7B8A-CD3A-D1F45E082300</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38B16CDD-1B08-6F53-DD8E-2B46937B829E" referredColumn="72069357-0DB6-0F20-0A74-4193457E5C70"/>
+</associations>
+</Column>
+<Column name="SIM_Person_person_id" id="AE784EDC-C27E-56F6-CCC9-29FCCB38F190">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>19C007AA-14EF-0396-9663-055ED4B8A57F</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE4B4877-5A79-824E-91A5-03F692B1A8B9" referredColumn="E2671AA4-CEC2-5944-61F5-7619EDB968C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6F6289C-EA23-F79A-CC7B-D3D94F2F4AB9" name="SIM_project_assignment_PK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>6F249A41-7FD8-EAA0-577D-5FDCD75ED79E</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FAE81EC-255C-9930-8B73-2B335D13586D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC8A0192-8B0A-883C-64D1-97061A76F848" name="SIM_project_assignment_SIM_project_FK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>12F21DB6-4BF7-A8FB-47D2-F3D2148ADF8F</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77597632-4ABD-0B9B-037E-F2973A58ADE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69BB1611-04AD-ADD5-EA80-A278CB0C1D18" name="SIM_project_assignment_SIM_Person_FK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-02-18 04:11:09 UTC</createdTime>
+<generatorID>0D99CE7F-35BC-34E8-EF89-1A86C6BE224E</generatorID>
+<ownerDesignName>HW4_logical_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE784EDC-C27E-56F6-CCC9-29FCCB38F190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
