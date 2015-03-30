@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA8DF6F5-90F4-C52F-9705-79A7C422C212" name="sam_noteList">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:21:10 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="noteList_id" id="9D28B6A4-072C-1605-2FF1-201652AF5439">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:21:28 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Name" id="001574F7-B8B4-9FAA-5DBF-A2FD3A312298">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:22:47 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="Description" id="0ABAFD42-3D47-EDDB-9839-A9FAF898EFFF">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:23:22 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="author_name" id="71180F67-CD58-A7F7-4765-F2F5E8FF030B">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:23:47 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="div_code" id="133C3015-16A4-CA22-2B7B-0759239F7506">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:27:14 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="status_effective_date" id="6506347C-8BF7-7CB6-5506-9D2AF90B902F">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:28:13 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="external_name" id="38E0FC4C-72FE-C807-4CF5-24153464FD5E">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:28:13 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="status" id="9FC34F22-F534-36FC-496A-5AA79608F380">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:37:15 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EB18262-086A-5FF3-778D-736D701DFCEC" name="sam_noteList PK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:21:53 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D28B6A4-072C-1605-2FF1-201652AF5439</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

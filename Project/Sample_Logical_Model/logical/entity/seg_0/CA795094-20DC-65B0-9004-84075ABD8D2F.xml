@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA795094-20DC-65B0-9004-84075ABD8D2F" name="Division">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:33:53 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="division_id" id="B87E3264-9FBB-5AB3-902E-13C4167247AD">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:36:50 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="user_id" id="36F07750-3CC5-0993-C29E-EF749F41DD0F">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:48:42 UTC</createdTime>
+<generatorID>4C84F64C-8CDA-60F2-9510-0EADA3752245</generatorID>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<referedAttribute>F734257C-56FA-A8FF-4F5A-110452724366</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="lab_id" id="7A0CA833-0D74-40D6-2F8E-24BE9B086D9D">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:50:34 UTC</createdTime>
+<generatorID>5D613766-3972-EF7B-4B14-A2EBD6E9C416</generatorID>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<referedAttribute>EA9931DF-6864-55A7-9A3D-314C3E86C57F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C65EB156-4E31-5CAD-55E2-4917D1469DF3" name="Division PK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:37:04 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B87E3264-9FBB-5AB3-902E-13C4167247AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

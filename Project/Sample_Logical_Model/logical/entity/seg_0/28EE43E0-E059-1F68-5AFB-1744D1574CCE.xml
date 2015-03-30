@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28EE43E0-E059-1F68-5AFB-1744D1574CCE" name="sam_lab">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:47:27 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="3677A43F-A485-8CFC-2DB8-1EF630955A6A">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:47:56 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="lab_id" id="EA9931DF-6864-55A7-9A3D-314C3E86C57F">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:48:07 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33584B77-88A5-1D58-5670-3453AE722EFE" name="sam_lab PK">
+<createdBy>Logan Bishop</createdBy>
+<createdTime>2015-03-23 21:48:24 UTC</createdTime>
+<ownerDesignName>Sample_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="A8D2A1AC-A614-7406-29CB-007133798B29" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA9931DF-6864-55A7-9A3D-314C3E86C57F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
