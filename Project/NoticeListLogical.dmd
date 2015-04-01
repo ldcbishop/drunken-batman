@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="NoticeListLogical" id="02418C89-DE1A-450B-63AD-474549D15D7C" version="3.5">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-03-30 22:40:39 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>02418C89-DE1A-450B-63AD-474549D15D7C</designId>
+</OSDM_Design>

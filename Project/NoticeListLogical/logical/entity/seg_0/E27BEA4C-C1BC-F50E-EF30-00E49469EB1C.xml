@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E27BEA4C-C1BC-F50E-EF30-00E49469EB1C" name="ARL_Notice_List_Membership">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-03-31 23:53:40 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="membership_id" id="E188821B-ACC8-CC57-E503-0C9AB7E65159">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-03-31 23:53:53 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="list_seq_id" id="5CCDF267-370A-1A7D-AA69-E1A58FDA22A4">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-03-31 23:54:20 UTC</createdTime>
+<generatorID>70CB4B02-6829-7307-AE0A-21B1FACE609F</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+</engineerTo>
+<referedAttribute>F6FCFAF5-9E6A-5353-A571-3F05320B8D68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="list_seq_id1" id="0C76C003-4679-2676-D91A-9F10A678444A">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-03-31 23:54:34 UTC</createdTime>
+<generatorID>F2F5C96B-3ADF-A7EE-FDED-5711872034B3</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+</engineerTo>
+<referedAttribute>F6FCFAF5-9E6A-5353-A571-3F05320B8D68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0FC69C27-BAE3-5D54-A86C-4E4BC6473C71" name="{entity} PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-03-31 23:57:05 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E188821B-ACC8-CC57-E503-0C9AB7E65159</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
