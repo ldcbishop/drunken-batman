@@ -2,6 +2,7 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r3" directorySegmentName="seg_0" id="BE93C8D6-017D-EB2F-DE17-D63AEFE98AB8">
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-03-31 23:52:34 UTC</createdTime>
+<notes>A member can be on many notice lists</notes>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
 <item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
