@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0327B3F-3193-9553-6716-51B4BBFB2441" name="ARL_Notice_List_Member">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0327B3F-3193-9553-6716-51B4BBFB2441" name="ARL_Member">
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-03-30 22:44:35 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2015-03-30 22:44:49 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,7 +31,7 @@
 <createdTime>2015-03-30 22:45:15 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,7 +43,7 @@
 <createdTime>2015-03-30 22:45:26 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,7 +55,7 @@
 <createdTime>2015-03-30 22:45:36 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,7 +69,7 @@
 <createdTime>2015-03-31 23:53:18 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="9C610CD5-009B-0214-6452-B2ECEEA8CDD8" value="true"/>
+<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

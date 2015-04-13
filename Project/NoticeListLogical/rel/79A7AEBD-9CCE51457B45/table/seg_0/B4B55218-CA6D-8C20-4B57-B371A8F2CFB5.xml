@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4B55218-CA6D-8C20-4B57-B371A8F2CFB5" name="ARL_NLM2NL">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>1EFDB81A-2C56-3414-ADAE-0A83294E28D5</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="membership_id" id="8D63816D-9FF9-5693-CA80-9D2F62984F97">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>BEA03500-5B3E-0368-E360-067AAD0BF5BE</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARL_Notice_List_list_seq_id" id="BBA0970E-7091-CF92-0B5D-4B1C72C6CF6D">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>51D97B9B-59AB-039D-6F70-4C665BAD1A86</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E203E682-1185-2589-832A-583E1EA97C23</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D7586B7-F16C-DC76-8A95-B711A87D6080" referredColumn="E203E682-1185-2589-832A-583E1EA97C23"/>
+</associations>
+</Column>
+<Column name="ARL_Notice_List_Member_list_seq_id" id="153DA290-9244-6AEA-C39A-0BA9340E00E4">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>41C23A70-6699-8BB3-40A5-717A48372B2E</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B9BBFFDF-45F2-129A-F68D-448FE789034A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7D05DB7-3F81-B80A-E8CD-52EDC4F8C70D" referredColumn="B9BBFFDF-45F2-129A-F68D-448FE789034A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="175CC902-304A-6E8E-C3B5-1C5EDEAA85CE" name="ARL_NLM2NL_PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>67FAA209-FC3F-80E9-7336-9EE5629E41BC</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D63816D-9FF9-5693-CA80-9D2F62984F97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FF29D5B-F082-530A-627F-7429C8EC2161" name="ARL_NLM2NL_ARL_Notice_List_Member_FK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>BE93C8D6-017D-EB2F-DE17-D63AEFE98AB8</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="153DA290-9244-6AEA-C39A-0BA9340E00E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9959C69D-F50F-60EE-3D68-DB61463CD032" name="ARL_NLM2NL_ARL_Notice_List_FK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>648A2B9C-02FA-3DF3-E114-B5705908B164</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA0970E-7091-CF92-0B5D-4B1C72C6CF6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

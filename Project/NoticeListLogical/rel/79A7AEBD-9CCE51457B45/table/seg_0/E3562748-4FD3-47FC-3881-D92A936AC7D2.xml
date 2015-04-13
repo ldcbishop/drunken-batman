@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3562748-4FD3-47FC-3881-D92A936AC7D2" name="ARL_Notice_List_Member">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>E0327B3F-3193-9553-6716-51B4BBFB2441</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="list_seq_id" id="B9BBFFDF-45F2-129A-F68D-448FE789034A">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>F673423B-1A71-BFBB-E7D8-F0ECA9E564B8</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_id" id="4DF7D866-11FA-3A11-B6A2-E29FC67F9D7B">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>AFA2AAA7-EBA4-8C69-7C71-435D1AD3B9DC</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="member_list_id" id="B5C53DEF-AB71-D899-C748-2EC36CEC135F">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>7FF1A66A-A54F-E9C7-325D-74AFF2D08370</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_added" id="AC4B3FBB-A499-7147-3C67-631F2E0A490D">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>E4E8E1C7-3864-B5FC-4A58-4648E9674F00</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D8A5840-443D-AAEA-7DF8-E38A129CA830" name="ARL_Notice_List_Member_PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-13 23:24:21 UTC</createdTime>
+<generatorID>2ACFEDE5-A491-F488-2169-FDAA53FC9870</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9BBFFDF-45F2-129A-F68D-448FE789034A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

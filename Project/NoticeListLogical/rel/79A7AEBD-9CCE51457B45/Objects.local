@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="209DD82C-A736-BFA1-044A-5963DF785803" name="ARL_NL2NL" seqName="seg_0"/>
+   <object objectType="Table" objectID="B4B55218-CA6D-8C20-4B57-B371A8F2CFB5" name="ARL_NLM2NL" seqName="seg_0"/>
+   <object objectType="Table" objectID="E6C0DD9A-E697-5F86-0A8A-6FA42E3A9D84" name="ARL_Notice_List" seqName="seg_0"/>
+   <object objectType="Table" objectID="E3562748-4FD3-47FC-3881-D92A936AC7D2" name="ARL_Notice_List_Member" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C24C364A-C945-764B-AF3C-1E7CB9CDF802" name="ARL_NL2NL_ARL_Notice_List_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="32DDDE1F-0620-86FC-15BA-C5AD5EA785A9" name="ARL_NL2NL_ARL_Notice_List_FKv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5D7586B7-F16C-DC76-8A95-B711A87D6080" name="ARL_NLM2NL_ARL_Notice_List_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C7D05DB7-3F81-B80A-E8CD-52EDC4F8C70D" name="ARL_NLM2NL_ARL_Notice_List_Member_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
