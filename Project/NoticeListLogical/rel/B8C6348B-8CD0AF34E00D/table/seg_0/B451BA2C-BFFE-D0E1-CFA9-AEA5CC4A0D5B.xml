@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B451BA2C-BFFE-D0E1-CFA9-AEA5CC4A0D5B" name="ARL_NL2NL">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 20:45:23 UTC</createdTime>
+<generatorID>E27BEA4C-C1BC-F50E-EF30-00E49469EB1C</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="membership_id" id="16793723-94A2-D9EB-CBA0-60621D3C720F">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 20:45:23 UTC</createdTime>
+<generatorID>E188821B-ACC8-CC57-E503-0C9AB7E65159</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARL_List_list_seq_id" id="9490B209-E80C-58F6-565F-8236C7F97097">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 20:45:23 UTC</createdTime>
+<generatorID>5CCDF267-370A-1A7D-AA69-E1A58FDA22A4</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1BAD1660-B799-7CEC-21AC-37AB5800FFF4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0835A832-E0D1-E830-B9C0-0974EC48C323" referredColumn="1BAD1660-B799-7CEC-21AC-37AB5800FFF4"/>
+</associations>
+</Column>
+<Column name="ARL_List_list_seq_id2" id="E287F498-21DF-FF61-BC68-459A3B818B0C">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 20:45:23 UTC</createdTime>
+<generatorID>0C76C003-4679-2676-D91A-9F10A678444A</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1BAD1660-B799-7CEC-21AC-37AB5800FFF4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAD5FE3B-C6F6-5C48-7D07-625746E22D7B" referredColumn="1BAD1660-B799-7CEC-21AC-37AB5800FFF4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E70C991-1890-435A-92C0-DC683E9546F7" name="ARL_NL2NL_PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 20:45:23 UTC</createdTime>
+<generatorID>0FC69C27-BAE3-5D54-A86C-4E4BC6473C71</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16793723-94A2-D9EB-CBA0-60621D3C720F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F97121A-7749-74C2-7580-1A859C171BE2" name="ARL_NL2NL_ARL_List_FK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 20:45:23 UTC</createdTime>
+<generatorID>70CB4B02-6829-7307-AE0A-21B1FACE609F</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9490B209-E80C-58F6-565F-8236C7F97097"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42E5E171-F462-CBC1-BC27-CCF48A33106A" name="ARL_NL2NL_ARL_List_FKv2">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 20:45:23 UTC</createdTime>
+<generatorID>F2F5C96B-3ADF-A7EE-FDED-5711872034B3</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E287F498-21DF-FF61-BC68-459A3B818B0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

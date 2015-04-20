@@ -1,0 +1,5 @@
+SELECT mem.list_seq_id AS member_id, list.list_seq_id AS list_id
+FROM ARL_Member mem JOIN ARL_NLM2NL nlm2nl
+     ON mem.list_seq_id = nlm2nl.ARL_Member_list_seq_id
+JOIN ARL_List list
+     ON list.list_seq_id = nlm2nl.ARL_List_list_seq_id;

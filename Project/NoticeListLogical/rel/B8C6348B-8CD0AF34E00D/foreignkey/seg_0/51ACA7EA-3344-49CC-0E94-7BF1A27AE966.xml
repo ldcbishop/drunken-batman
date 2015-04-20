@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51ACA7EA-3344-49CC-0E94-7BF1A27AE966" name="ARL_NLM2NL_ARL_List_FK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 20:45:23 UTC</createdTime>
+<generatorID>648A2B9C-02FA-3DF3-E114-B5705908B164</generatorID>
+<notes>A notice list can have many members</notes>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<containerWithKeyObject>D6A67F91-8066-D87B-1B2D-45C1A0527827</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>71DA4B23-1DBB-0A0E-9721-AC8093753B0B</localFKIndex>
+<keyObject>F3F68E83-0E1E-2B45-71D9-C85DFDFBC35E</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

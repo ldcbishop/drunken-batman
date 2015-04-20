@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC1382B9-55CA-9938-1C42-64A14E92494C" name="ARL_Active_Employee">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:44:47 UTC</createdTime>
+<generatorID>656AD646-9936-ADA6-3F8B-3A475B78C407</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="2A9FA5F9-08CB-E132-9157-41BD8465BB2A">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:44:47 UTC</createdTime>
+<generatorID>C345E65C-AB8B-8333-DB93-5E5CCBBA84D3</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_name" id="F07282DB-F90E-E033-5D1A-AA157866D6C4">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:44:47 UTC</createdTime>
+<generatorID>2B48A5D0-C14D-32BC-D4E9-8D6F55CD1983</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_lab" id="81706FC5-6F4F-E9B9-E392-606F7D0D7369">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:44:47 UTC</createdTime>
+<generatorID>C408E2B4-9A2A-C9A9-0EE9-0A4AF6E5AEF1</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_division" id="5AA21D71-9160-63E3-EB0D-9545B157A948">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:44:47 UTC</createdTime>
+<generatorID>D613B4CA-B688-59CF-202E-61A4E92766A7</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_status" id="1FDC0EA4-0D78-0230-35BF-47464D5BC124">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:44:47 UTC</createdTime>
+<generatorID>980AC6DC-ECB4-D4FA-636B-0029668EA768</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_eff_date" id="93C3AED8-A665-9CC8-FF9F-638B0F4BE730">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:44:47 UTC</createdTime>
+<generatorID>D58D4CFC-5964-6A06-12FA-B41E761C2AF1</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA92B4DE-BCF9-5572-962C-59426D555D1A" name="ARL_Active_Employee_PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:44:47 UTC</createdTime>
+<generatorID>713C544C-C011-B745-30FE-C9FCA8BF256E</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A9FA5F9-08CB-E132-9157-41BD8465BB2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,12 @@
+Need a separate User and Member table. Why?
+
+To automatically fill in the MIMEType in the Document table, you
+need to go into the Data BLOB column, and specify the column that
+is meant to store the MIME type in the table
+
+select wwv_flow.g_user from dual; (not sure what this is used for,
+   other than to get user when documents are uploaded)
+
+Devise a way to select a user that is selected when entering the application,
+and that is the user that you use during the rest of the session in
+the application.

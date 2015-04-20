@@ -4,7 +4,7 @@
 <createdTime>2015-03-31 23:51:45 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
+<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2015-03-31 23:52:00 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
+<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <generatorID>648A2B9C-02FA-3DF3-E114-B5705908B164</generatorID>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
+<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
 </engineerTo>
 <referedAttribute>F6FCFAF5-9E6A-5353-A571-3F05320B8D68</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +45,7 @@
 <generatorID>BE93C8D6-017D-EB2F-DE17-D63AEFE98AB8</generatorID>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
-<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
+<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
 </engineerTo>
 <referedAttribute>F673423B-1A71-BFBB-E7D8-F0ECA9E564B8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,8 +58,9 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-03-31 23:52:11 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="79A7AEBD-6F82-C36F-B17A-9CCE51457B45" value="true"/>
+<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

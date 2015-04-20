@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C98FA2E6-928F-EAFA-00EE-9C7CBC631C14" name="ARL_List">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="656AD646-9936-ADA6-3F8B-3A475B78C407" name="ARL_Active_Employee">
 <createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:41:00 UTC</createdTime>
+<createdTime>2015-04-20 21:15:07 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
 <item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="list_seq_id" id="F6FCFAF5-9E6A-5353-A571-3F05320B8D68">
+<Attribute name="employee_id" id="C345E65C-AB8B-8333-DB93-5E5CCBBA84D3">
 <createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:41:21 UTC</createdTime>
+<createdTime>2015-04-20 21:15:26 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
 <item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
@@ -26,21 +26,22 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="list_name" id="3A91D9CD-741C-3972-D20A-92CB948C5162">
+<Attribute name="employee_name" id="2B48A5D0-C14D-32BC-D4E9-8D6F55CD1983">
 <createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:41:41 UTC</createdTime>
+<createdTime>2015-04-20 21:15:34 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
 <item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
+<dataTypeSize>30</dataTypeSize>
 </Attribute>
-<Attribute name="ownership_div_code" id="01E2BC09-A629-F4A4-49DF-930912A03BF6">
+<Attribute name="employee_lab" id="C408E2B4-9A2A-C9A9-0EE9-0A4AF6E5AEF1">
 <createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:41:52 UTC</createdTime>
+<createdTime>2015-04-20 21:15:45 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
 <item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
@@ -51,21 +52,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4</dataTypeSize>
 </Attribute>
-<Attribute name="list_description" id="73CA3936-3CF6-2602-4830-BF251A75C33C">
+<Attribute name="employee_division" id="D613B4CA-B688-59CF-202E-61A4E92766A7">
 <createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:42:22 UTC</createdTime>
-<ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>3500</dataTypeSize>
-</Attribute>
-<Attribute name="external_view_name" id="E02249D2-27B6-E9CC-FE21-5B213B389C99">
-<createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:42:45 UTC</createdTime>
+<createdTime>2015-04-20 21:16:03 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
 <item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
@@ -74,23 +63,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
+<dataTypeSize>4</dataTypeSize>
 </Attribute>
-<Attribute name="creation_date" id="51E7ACFA-CD1B-6537-8318-2CAB65673BF8">
+<Attribute name="employee_status" id="980AC6DC-ECB4-D4FA-636B-0029668EA768">
 <createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:43:14 UTC</createdTime>
-<ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-</Attribute>
-<Attribute name="list_status" id="4E613D00-7534-8D31-1EE8-62B3FCF48C89">
-<createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:43:30 UTC</createdTime>
+<createdTime>2015-04-20 21:16:15 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
 <item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
@@ -101,9 +78,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 </Attribute>
-<Attribute name="status_eff_date" id="CB0EADA3-1DB0-65AA-BB34-305A2BA30FEB">
+<Attribute name="status_eff_date" id="D58D4CFC-5964-6A06-12FA-B41E761C2AF1">
 <createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:43:48 UTC</createdTime>
+<createdTime>2015-04-20 21:16:33 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
 <engineerTo>
 <item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
@@ -115,17 +92,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="257167C5-49E3-0154-3662-F3633F9862AE" name="{entity} PK">
+<identifier id="713C544C-C011-B745-30FE-C9FCA8BF256E" name="{entity} PK">
 <createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-03-30 22:41:39 UTC</createdTime>
+<createdTime>2015-04-20 21:15:33 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="false"/>
+<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F6FCFAF5-9E6A-5353-A571-3F05320B8D68</attributeRef>
+<attributeRef>C345E65C-AB8B-8333-DB93-5E5CCBBA84D3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
