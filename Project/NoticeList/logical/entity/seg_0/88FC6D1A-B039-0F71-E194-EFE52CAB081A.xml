@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88FC6D1A-B039-0F71-E194-EFE52CAB081A" name="ARL_Document">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document_id" id="B6AB679D-D6DF-31CF-42A5-D08F06D73E84">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>AFC2CE65-6098-13E3-051E-997DE7CF086D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="filename" id="49114F28-8398-C2C8-C57F-ACB496EEF42B">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>1B7D06F6-57C4-3DD4-E39D-1F2AB1BD36EE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="file_mimetype" id="9D661FD4-8F6D-4898-E8A6-9B7628005FE3">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>E57AD657-02BD-CAC5-361E-7E3D52C1FB6B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file_charset" id="199F0EC0-9B25-3894-7703-DDEDDF94A39F">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>9BECECD5-7A0F-1D92-6ED5-3E29E4A096F5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file_data" id="E9BF3C24-33B7-32C5-A9F9-5FA91911F3BB">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>9F1F12A2-FC55-E810-CE03-A63D413A372A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="file_comments" id="510B4973-112C-DFA3-181B-D6EA624E1ADE">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>DBE6A77B-B181-C917-FB14-53B9FD82EDC4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="tags" id="AD99374D-B64B-A38E-B54C-18662880F754">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>E2A7B47B-C748-5C73-AF9D-FE96DD65AC56</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="list_seq_id" id="E740F586-9E27-336A-D81D-EFD1CA8AD0FA">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>3D3448DC-F3F0-E4AA-A7D4-D473BF2DC184</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="list_seq_id1" id="D7C99C3E-94F6-3E72-0F9F-FBEC5A135DFD">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:08:00 UTC</createdTime>
+<generatorID>890BD4C4-4D98-C34C-7792-6BA1756B5AD0</generatorID>
+<ownerDesignName>NoticeList</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>84928BF0-D9A8-3699-9FD8-BB9E5F9B581F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C53AFC26-7B47-0660-32F1-C8783168E099" name="{entity} PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:00:35 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6AB679D-D6DF-31CF-42A5-D08F06D73E84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

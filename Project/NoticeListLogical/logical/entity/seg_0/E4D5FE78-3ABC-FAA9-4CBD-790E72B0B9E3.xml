@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4D5FE78-3ABC-FAA9-4CBD-790E72B0B9E3" name="ARL_Admin">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:06:10 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="employee_id" id="9639D179-D083-FAC0-6415-05CFEE41EC46">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:07:23 UTC</createdTime>
+<generatorID>063EC707-64D0-DA56-0AAC-9BC200BC83B9</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C345E65C-AB8B-8333-DB93-5E5CCBBA84D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

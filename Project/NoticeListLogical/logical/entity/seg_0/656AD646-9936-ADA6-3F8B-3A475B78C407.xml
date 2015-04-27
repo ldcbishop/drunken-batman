@@ -1,11 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="656AD646-9936-ADA6-3F8B-3A475B78C407" name="ARL_Active_Employee">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="656AD646-9936-ADA6-3F8B-3A475B78C407" name="ARL_Employee">
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:07 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:26 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -30,9 +24,6 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:34 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,9 +34,6 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:45 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,9 +44,6 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:16:03 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,9 +54,6 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:16:15 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -82,9 +64,6 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:16:33 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -96,9 +75,6 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:33 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
-<engineerTo>
-<item key="B8C6348B-B838-DD67-7FC4-8CD0AF34E00D" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C345E65C-AB8B-8333-DB93-5E5CCBBA84D3</attributeRef>

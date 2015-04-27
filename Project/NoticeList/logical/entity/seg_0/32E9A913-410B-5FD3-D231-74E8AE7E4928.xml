@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32E9A913-410B-5FD3-D231-74E8AE7E4928" name="ARL_Employee">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:01:02 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="employee_id" id="0A8CB705-9974-A795-5CBB-819E89770D9D">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:01:02 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>C345E65C-AB8B-8333-DB93-5E5CCBBA84D3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="employee_name" id="BBF3745B-7D07-9CAA-E1F6-87AA2F126842">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:01:02 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>2B48A5D0-C14D-32BC-D4E9-8D6F55CD1983</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="employee_lab" id="3EA2A5DF-9D01-18B8-C51E-8F74E6D573FB">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:01:02 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>C408E2B4-9A2A-C9A9-0EE9-0A4AF6E5AEF1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="employee_division" id="E98FEEE4-5F8B-D7A5-30B2-681087EF6FE6">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:01:02 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>D613B4CA-B688-59CF-202E-61A4E92766A7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="employee_status" id="FC121067-6871-449F-6D5E-F6D0614ACFE4">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:01:02 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>980AC6DC-ECB4-D4FA-636B-0029668EA768</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="status_eff_date" id="A632D61F-24AA-46E9-C608-30CC15CAC988">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:01:02 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<importedID>D58D4CFC-5964-6A06-12FA-B41E761C2AF1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="list_seq_id" id="6D20872B-7116-8F22-5859-44D3355D5023">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:08:08 UTC</createdTime>
+<generatorID>8225ACB1-81A3-60A3-7E47-BA392AF55D3B</generatorID>
+<ownerDesignName>NoticeList</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>84928BF0-D9A8-3699-9FD8-BB9E5F9B581F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F2027C0-F801-BA8A-7E6C-B771DE94C591" name="{entity} PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:01:02 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A8CB705-9974-A795-5CBB-819E89770D9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -10,3 +10,8 @@ select wwv_flow.g_user from dual; (not sure what this is used for,
 Devise a way to select a user that is selected when entering the application,
 and that is the user that you use during the rest of the session in
 the application.
+
+
+
+Need to make a way to select Labs and Divisions that are not in the Member table.
+(Make separate Lab and Divisions tables)

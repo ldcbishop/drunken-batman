@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C269EAD-148F-C026-0C8A-79319E7A5DB4" name="ARL_Admin">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-25 00:03:46 UTC</createdTime>
+<ownerDesignName>NoticeList</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>32E9A913-410B-5FD3-D231-74E8AE7E4928</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

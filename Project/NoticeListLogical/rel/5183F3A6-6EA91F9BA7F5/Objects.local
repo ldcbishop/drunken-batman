@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="45F1F932-408A-01B3-B73F-FFB13BEE5304" name="ARL_Document" seqName="seg_0"/>
+   <object objectType="Table" objectID="F4107336-7144-AB13-0BF1-081FA76CC9EB" name="ARL_Employee" seqName="seg_0"/>
+   <object objectType="Table" objectID="13698101-1EB4-FC97-73E1-F80F2B97C874" name="ARL_List" seqName="seg_0"/>
+   <object objectType="Table" objectID="5598FBDF-F5B0-5F4C-AA41-5A9B649BD47F" name="ARL_Member" seqName="seg_0"/>
+   <object objectType="Table" objectID="453B637E-620F-09D7-D63A-9C030B51E6F7" name="ARL_NL2NL" seqName="seg_0"/>
+   <object objectType="Table" objectID="954E0383-2F34-D34C-42BF-867230845663" name="ARL_NLM2NL" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C7AB1D98-7B60-C97F-AC9D-111323DEE392" name="ARL_Document_ARL_Member_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="83226840-8B7C-4C2B-2270-E3F4115E45C2" name="ARL_Member_ARL_Employee_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AC601BE4-8787-38F0-512C-2D4709B13831" name="ARL_NL2NL_ARL_List_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F9CD735E-2C21-418A-7F28-FDEB86B37AAE" name="ARL_NL2NL_ARL_List_FKv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="251A45E3-B34F-6327-4046-AEA6D69932A8" name="ARL_NLM2NL_ARL_List_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B54CA541-30A3-DBAF-52F1-449D5FC1A1E1" name="ARL_NLM2NL_ARL_Member_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
