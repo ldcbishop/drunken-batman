@@ -20,6 +20,8 @@ and
 NoticeList/
 ```
 
+![](/Project/SUBMISSION/NoticeList.png)
+
 #### The Logical Model
 ```
 NoticeListLogical.dmd
@@ -28,3 +30,5 @@ and
 ```
 NoticeListLogical/
 ```
+
+![](/Project/SUBMISSION/NoticeListLogical.png)

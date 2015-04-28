@@ -3,6 +3,9 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:07 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="C6A0FE8B-2DA0-CAB2-A527-028ACC7A6223" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:26 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="C6A0FE8B-2DA0-CAB2-A527-028ACC7A6223" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -24,6 +30,9 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:34 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="C6A0FE8B-2DA0-CAB2-A527-028ACC7A6223" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,6 +43,9 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:45 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="C6A0FE8B-2DA0-CAB2-A527-028ACC7A6223" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,6 +56,9 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:16:03 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="C6A0FE8B-2DA0-CAB2-A527-028ACC7A6223" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,6 +69,9 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:16:15 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="C6A0FE8B-2DA0-CAB2-A527-028ACC7A6223" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -64,6 +82,9 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:16:33 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="C6A0FE8B-2DA0-CAB2-A527-028ACC7A6223" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -75,6 +96,9 @@
 <createdBy>Ryan Lorey</createdBy>
 <createdTime>2015-04-20 21:15:33 UTC</createdTime>
 <ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="C6A0FE8B-2DA0-CAB2-A527-028ACC7A6223" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C345E65C-AB8B-8333-DB93-5E5CCBBA84D3</attributeRef>

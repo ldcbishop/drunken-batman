@@ -86,20 +86,10 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4000</dataTypeSize>
 </Attribute>
-<Attribute name="list_seq_id" id="E740F586-9E27-336A-D81D-EFD1CA8AD0FA">
+<Attribute name="list_seq_id" id="6E4036CB-AC83-6389-95C9-4A684AFEEF8C">
 <createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-04-25 00:00:35 UTC</createdTime>
-<ownerDesignName>NoticeList</ownerDesignName>
-<importedID>3D3448DC-F3F0-E4AA-A7D4-D473BF2DC184</importedID>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
-<Attribute name="list_seq_id1" id="D7C99C3E-94F6-3E72-0F9F-FBEC5A135DFD">
-<createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-04-25 00:08:00 UTC</createdTime>
-<generatorID>890BD4C4-4D98-C34C-7792-6BA1756B5AD0</generatorID>
+<createdTime>2015-04-28 05:07:39 UTC</createdTime>
+<generatorID>64F8DA33-436C-77E4-BFB9-8180577F0376</generatorID>
 <ownerDesignName>NoticeList</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>84928BF0-D9A8-3699-9FD8-BB9E5F9B581F</referedAttribute>

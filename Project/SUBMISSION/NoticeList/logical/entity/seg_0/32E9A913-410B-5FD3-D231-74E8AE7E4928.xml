@@ -75,17 +75,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 </Attribute>
-<Attribute name="list_seq_id" id="6D20872B-7116-8F22-5859-44D3355D5023">
-<createdBy>Ryan Lorey</createdBy>
-<createdTime>2015-04-25 00:08:08 UTC</createdTime>
-<generatorID>8225ACB1-81A3-60A3-7E47-BA392AF55D3B</generatorID>
-<ownerDesignName>NoticeList</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>84928BF0-D9A8-3699-9FD8-BB9E5F9B581F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7F2027C0-F801-BA8A-7E6C-B771DE94C591" name="{entity} PK">

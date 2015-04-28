@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B57959B-1599-4E79-37B7-E37763C0B25A" name="ARL_Admin">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-27 21:48:25 UTC</createdTime>
+<generatorID>78F39776-CFAC-110C-0344-00E324E23FEF</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARL_Employee_employee_id" id="ADA813D1-A883-021D-1370-9B9A1EF1B695">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-27 21:48:25 UTC</createdTime>
+<generatorID>EC22AE7A-49AC-8830-71E2-230BB4913BB5</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8AFFD4F3-E035-5433-ED9B-433A27C0FEE8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D551F53-2A9C-D9DE-234A-C25907336E43" referredColumn="8AFFD4F3-E035-5433-ED9B-433A27C0FEE8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B14FBCE6-1162-E287-08B9-629C7FE92F30" name="ARL_Admin_PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-27 21:48:25 UTC</createdTime>
+<generatorID>D2E9D4BE-AFD5-679A-7787-864A83400C61</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADA813D1-A883-021D-1370-9B9A1EF1B695"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1FD4566-F5B9-6DD9-DAC8-02964CCB759E" name="ARL_Admin_ARL_Employee_FK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-27 21:48:25 UTC</createdTime>
+<generatorID>59E9372A-B9C9-C6C0-B2FF-DB86E35B68EE</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADA813D1-A883-021D-1370-9B9A1EF1B695"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
