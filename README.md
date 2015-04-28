@@ -20,7 +20,7 @@ and
 NoticeList/
 ```
 
-![](/Project/SUBMISSION/NoticeList.png)
+![alt text](https://github.com/ldcbishop/drunken-batman/blob/master/Project/SUBMISSION/ConceptualModel.png)
 
 #### The Logical Model
 ```
@@ -31,4 +31,4 @@ and
 NoticeListLogical/
 ```
 
-![](/Project/SUBMISSION/NoticeListLogical.png)
+![alt text](https://github.com/ldcbishop/drunken-batman/blob/master/Project/SUBMISSION/LogicalModel.png)
