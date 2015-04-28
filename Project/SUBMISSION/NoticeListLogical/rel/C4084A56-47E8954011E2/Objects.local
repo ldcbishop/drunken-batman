@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="F47F7F43-C646-C105-7320-8DACECAFBAE1" name="ARL_List" seqName="seg_0"/>
+   <object objectType="Table" objectID="B926C48E-2F72-4350-9F94-3BF12362A97D" name="ARL_Member" seqName="seg_0"/>
+   <object objectType="Table" objectID="51E467A8-3718-C80A-688D-8848BE1E1986" name="ARL_NL2NL" seqName="seg_0"/>
+   <object objectType="Table" objectID="FAE33914-8CA7-8F5F-BE26-C400418A539C" name="ARL_NLM2NL" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="78A9D418-FF43-8034-1721-04F71F075BFE" name="ARL_NL2NL_ARL_List_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9BC91BDF-FDAC-B6D5-7753-60BC15700915" name="ARL_NL2NL_ARL_List_FKv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="985FA182-ACE7-CC5F-B534-9ABD8B2B47E6" name="ARL_NLM2NL_ARL_List_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BC5E3F69-7D63-BBFF-48EF-068299C55A46" name="ARL_NLM2NL_ARL_Member_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

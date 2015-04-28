@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BF3B24B-CD21-5710-85B4-E2C5538D3D63" name="ARL_Document">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:47:16 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document_id" id="AFC2CE65-6098-13E3-051E-997DE7CF086D">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:47:37 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="filename" id="1B7D06F6-57C4-3DD4-E39D-1F2AB1BD36EE">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:47:47 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="file_mimetype" id="E57AD657-02BD-CAC5-361E-7E3D52C1FB6B">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:48:00 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file_charset" id="9BECECD5-7A0F-1D92-6ED5-3E29E4A096F5">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:48:18 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file_data" id="9F1F12A2-FC55-E810-CE03-A63D413A372A">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:48:32 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="file_comments" id="DBE6A77B-B181-C917-FB14-53B9FD82EDC4">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:48:40 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="tags" id="E2A7B47B-C748-5C73-AF9D-FE96DD65AC56">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:48:51 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="list_seq_id" id="3D3448DC-F3F0-E4AA-A7D4-D473BF2DC184">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:49:19 UTC</createdTime>
+<generatorID>B13B8330-9498-44D3-07FE-A808A1855D40</generatorID>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F673423B-1A71-BFBB-E7D8-F0ECA9E564B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B73D4994-B78A-269A-4B4B-45EE0796EE6A" name="{entity} PK">
+<createdBy>Ryan</createdBy>
+<createdTime>2015-04-20 06:47:46 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<engineerTo>
+<item key="5183F3A6-6079-3209-7FA3-6EA91F9BA7F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AFC2CE65-6098-13E3-051E-997DE7CF086D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

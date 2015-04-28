@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="656AD646-9936-ADA6-3F8B-3A475B78C407" name="ARL_Employee">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:15:07 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="employee_id" id="C345E65C-AB8B-8333-DB93-5E5CCBBA84D3">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:15:26 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="employee_name" id="2B48A5D0-C14D-32BC-D4E9-8D6F55CD1983">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:15:34 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="employee_lab" id="C408E2B4-9A2A-C9A9-0EE9-0A4AF6E5AEF1">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:15:45 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="employee_division" id="D613B4CA-B688-59CF-202E-61A4E92766A7">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:16:03 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="employee_status" id="980AC6DC-ECB4-D4FA-636B-0029668EA768">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:16:15 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="status_eff_date" id="D58D4CFC-5964-6A06-12FA-B41E761C2AF1">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:16:33 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="713C544C-C011-B745-30FE-C9FCA8BF256E" name="{entity} PK">
+<createdBy>Ryan Lorey</createdBy>
+<createdTime>2015-04-20 21:15:33 UTC</createdTime>
+<ownerDesignName>NoticeListLogical</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C345E65C-AB8B-8333-DB93-5E5CCBBA84D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
