@@ -27,7 +27,7 @@ prompt APPLICATION 91459 - ARL Project
 -- Application Export:
 --   Application:     91459
 --   Name:            ARL Project
---   Date and Time:   17:10 Tuesday April 28, 2015
+--   Date and Time:   17:44 Tuesday April 28, 2015
 --   Exported By:     RYANLOREY@OUTLOOK.COM
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -68,6 +68,7 @@ prompt APPLICATION 91459 - ARL Project
 --         Report:               8
 --       LOVs:                  16
 --       Shortcuts:              2
+--       Plug-ins:               1
 --     Globalization:
 --     Reports:
 --   Supporting Objects:  Included
@@ -114,8 +115,8 @@ wwv_flow_api.create_flow(
 ,p_browser_frame=>'D'
 ,p_rejoin_existing_sessions=>'N'
 ,p_csv_encoding=>'Y'
-,p_last_updated_by=>'LDCBISHOP@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150428170154'
+,p_last_updated_by=>'RYANLOREY@OUTLOOK.COM'
+,p_last_upd_yyyymmddhh24miss=>'20150428174224'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 );
@@ -9591,6 +9592,207 @@ begin
 null;
 end;
 /
+prompt --application/shared_components/plugins/item_type/com_oracle_apex_group_selectlist
+begin
+wwv_flow_api.create_plugin(
+ p_id=>wwv_flow_api.id(6278730260478573314)
+,p_plugin_type=>'ITEM TYPE'
+,p_name=>'COM.ORACLE.APEX.GROUP_SELECTLIST'
+,p_display_name=>'Group Select List'
+,p_supported_ui_types=>'DESKTOP'
+,p_image_prefix => nvl(wwv_flow_application_install.get_static_plugin_file_prefix('ITEM TYPE','COM.ORACLE.APEX.GROUP_SELECTLIST'),'')
+,p_plsql_code=>wwv_flow_utilities.join(wwv_flow_t_varchar2(
+'-- The render procedure is responsible for the rendering of the actual HTML control',
+'-- of the new widget. APEX still takes care of the table cell for the layout,',
+'-- the label, pre- and post element text. Only the html code between the pre- and',
+'-- post element text is rendered by the plug-in. The render procedure has a',
+'-- defined interface which every plug-in has to implement. It''s designed in a way',
+'-- that future enhancements to the interface will not break existing plug-ins.',
+'function render_group_selectlist (',
+'    p_item                in apex_plugin.t_page_item,',
+'    p_plugin              in apex_plugin.t_plugin,',
+'    p_value               in varchar2,',
+'    p_is_readonly         in boolean,',
+'    p_is_printer_friendly in boolean )',
+'    return apex_plugin.t_page_item_render_result',
+'is',
+'    -- constants for accessing our l_column_value_list array',
+'    c_display_column constant number := 1;',
+'    c_return_column  constant number := 2;',
+'    c_group_column   constant number := 3;',
+'    ',
+'    -- value without the lov null value',
+'    l_value             varchar2(32767) := case when p_value = p_item.lov_null_value then null else p_value end;',
+'',
+'    l_name              varchar2(30);',
+'    l_display_value     varchar2(32767);',
+'    l_is_selected       boolean := false;',
+'    l_value_found       boolean := false;',
+'    l_column_value_list wwv_flow_plugin_util.t_column_value_list;',
+'    l_group_value       varchar2(4000);',
+'    l_last_group_value  varchar2(4000);',
+'    l_open_group        boolean := false;',
+'    l_result            wwv_flow_plugin.t_page_item_render_result;',
+'    ',
+'    procedure print_option_local (',
+'        p_display_value in varchar2,',
+'        p_return_value  in varchar2,',
+'        p_compare_value in varchar2 )',
+'    is',
+'        l_is_selected boolean := false;',
+'    begin',
+'        if not l_value_found and apex_plugin_util.is_equal(p_return_value, p_compare_value)',
+'        then',
+'            l_value_found := true;',
+'            l_is_selected := true;',
+'        end if;',
+'        -- add list entry',
+'        apex_plugin_util.print_option (',
+'            p_display_value => p_display_value,',
+'            p_return_value  => p_return_value,',
+'            p_is_selected   => l_is_selected,',
+'            p_attributes    => p_item.element_option_attributes );',
+'    end print_option_local;',
+'begin',
+'    -- During plug-in development it''s very helpful to have some debug information',
+'    if wwv_flow.g_debug then',
+'        apex_plugin_util.debug_page_item (',
+'            p_plugin              => p_plugin,',
+'            p_page_item           => p_item,',
+'            p_value               => p_value,',
+'            p_is_readonly         => p_is_readonly,',
+'            p_is_printer_friendly => p_is_printer_friendly );',
+'    end if;',
+'',
+'    -- Based on the flags we normally generate different HTML code, but that',
+'    -- depends on the plug-in.',
+'    if p_is_readonly or p_is_printer_friendly then',
+'        apex_plugin_util.print_hidden_if_readonly (',
+'            p_item_name           => p_item.name,',
+'            p_value               => p_value,',
+'            p_is_readonly         => p_is_readonly,',
+'            p_is_printer_friendly => p_is_printer_friendly );',
+'',
+'        -- get the display value',
+'        l_display_value := apex_plugin_util.get_display_data (',
+'                               p_sql_statement     => p_item.lov_definition,',
+'                               p_min_columns       => 3, -- LOV requires 3 column',
+'                               p_max_columns       => 3,',
+'                               p_component_name    => p_item.name,',
+'                               p_display_column_no => c_display_column,',
+'                               p_search_column_no  => c_return_column,',
+'                               p_search_string     => l_value,',
+'                               p_display_extra     => p_item.lov_display_extra );',
+'',
+'        -- emit display span with the value',
+'        apex_plugin_util.print_display_only (',
+'            p_item_name        => p_item.name,',
+'            p_display_value    => l_display_value,',
+'            p_show_line_breaks => false,',
+'            p_escape           => true,',
+'            p_attributes       => p_item.element_attributes );',
+'    else',
+'        -- If a page item saves state, we have to call the get_input_name_for_page_item',
+'        -- to render the internal hidden p_arg_names field. It will also return the',
+'        -- HTML field name which we have to use when we render the HTML input field.',
+'        l_name := apex_plugin.get_input_name_for_page_item(false);',
+'        sys.htp.prn(''<select name="''||l_name||''" id="''||p_item.name||''" ''||',
+'                  coalesce(p_item.element_attributes, ''class="group_selectlist"'')||''>'');',
+'',
+'        -- add display null entry',
+'        if p_item.lov_display_null then',
+'            -- add list entry',
+'            print_option_local (',
+'                    p_display_value => p_item.lov_null_text,',
+'                    p_return_value  => p_item.lov_null_value,',
+'                    p_compare_value => nvl(l_value, p_item.lov_null_value) );',
+'',
+'            -- We have to tell the APEX JS framework which value should be considered as NULL',
+'            if p_item.lov_null_value is not null then',
+'                apex_javascript.add_onload_code (',
+'                    p_code => ''apex.widget.initPageItem('' || apex_javascript.add_value(p_item.name) ||',
+'                              ''{ '' || apex_javascript.add_attribute(''nullValue'', p_item.lov_null_value, true, false) || ''});'' );',
+'            end if;',
+'        end if;',
+'',
+'        -- get all values',
+'        l_column_value_list := apex_plugin_util.get_data (',
+'                                   p_sql_statement      => p_item.lov_definition,',
+'                                   p_min_columns        => 3,',
+'                                   p_max_columns        => 3,',
+'                                   p_component_name     => p_item.name );',
+'',
+'        -- loop through the result',
+'        for i in 1 .. l_column_value_list(c_display_column).count',
+'        loop',
+'            l_group_value := l_column_value_list(c_group_column)(i);',
+'            -- has the group changed?',
+'            if (l_group_value <> l_last_group_value) or',
+'               (l_group_value is     null and l_last_group_value is not null) or',
+'               (l_group_value is not null and l_last_group_value is     null)',
+'            then',
+'                if l_open_group then',
+'                    sys.htp.p(''</optgroup>'');',
+'                    l_open_group := false;',
+'                end if;',
+'                if l_group_value is not null then',
+'                    sys.htp.p (''<optgroup label="''||sys.htf.escape_sc(l_group_value)||''">'');',
+'                    l_open_group := true;',
+'                end if;',
+'                l_last_group_value := l_group_value;',
+'            end if;',
+'            -- add list entry',
+'            print_option_local (',
+'                p_display_value => l_column_value_list(c_display_column)(i),',
+'                p_return_value  => l_column_value_list(c_return_column )(i),',
+'                p_compare_value => l_value );',
+'        end loop;',
+'',
+'        if l_open_group then',
+'            sys.htp.p(''</optgroup>'');',
+'        end if;',
+'        -- Show at least the value if it hasn''t been found in the database',
+'        if not l_value_found and l_value is not null and p_item.lov_display_extra then',
+'            print_option_local (',
+'                p_display_value => l_value,',
+'                p_return_value  => l_value,',
+'                p_compare_value => l_value );',
+'        end if;',
+'        -- close our select list',
+'        sys.htp.p(''</select>'');',
+'        -- Tell APEX that this field is navigable',
+'        l_result.is_navigable := true;',
+'    end if;',
+'    return l_result;',
+'end render_group_selectlist;'))
+,p_render_function=>'render_group_selectlist'
+,p_standard_attributes=>'VISIBLE:SESSION_STATE:READONLY:QUICKPICK:SOURCE:ELEMENT:ELEMENT_OPTION:ENCRYPT:LOV:LOV_REQUIRED:LOV_DISPLAY_NULL'
+,p_sql_min_column_count=>3
+,p_sql_max_column_count=>3
+,p_sql_examples=>wwv_flow_utilities.join(wwv_flow_t_varchar2(
+'<pre>',
+'select e.ename as d,',
+'       e.empno as r,',
+'       d.dname as grp',
+'  from emp e,',
+'       dept d',
+' where d.deptno = e.deptno',
+' order by grp, d',
+'</pre>'))
+,p_substitute_attributes=>true
+,p_subscribe_plugin_settings=>true
+,p_help_text=>wwv_flow_utilities.join(wwv_flow_t_varchar2(
+'<p>',
+'	<strong>Group Select List</strong> is a replacement for the built-in select list. It provides the possibility to group the entries of the select list.</p>',
+'<p>',
+'	This is done by adding a third column, the &quot;group column&quot; to the &quot;List of Values SQL Statement&quot;. Don&#39;t forget to order the result of your List of Values by the group column and then by the display column. For details have a l'
+||'ook at the &quot;List of Values Examples&quot;.</p>',
+''))
+,p_version_identifier=>'1.1'
+,p_about_url=>'http://apex.oracle.com/plugins'
+);
+end;
+/
 prompt --application/shared_components/data_loading/tables/arl_document
 begin
 wwv_flow_api.create_load_table(
@@ -9767,7 +9969,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'RYANLOREY@OUTLOOK.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150428165152'
+,p_last_upd_yyyymmddhh24miss=>'20150428171846'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(2593540563685640481)
@@ -9994,8 +10196,8 @@ wwv_flow_api.create_page(
 ,p_page_is_public_y_n=>'N'
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
-,p_last_updated_by=>'LDCBISHOP@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150428170059'
+,p_last_updated_by=>'RYANLOREY@OUTLOOK.COM'
+,p_last_upd_yyyymmddhh24miss=>'20150428174224'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3086299702619570943)
@@ -10209,6 +10411,9 @@ wwv_flow_api.create_page_da_event(
 'FROM ARL_Member',
 'WHERE list_seq_id NOT IN',
 '(SELECT ARL_Member_list_seq_id FROM ARL_NLM2NL)',
+'AND',
+'list_seq_id NOT IN',
+'(SELECT ARL_Member_list_seq_id FROM ARL_Document)',
 'GROUP BY list_seq_id;'))
 );
 wwv_flow_api.create_page_da_action(
@@ -10257,7 +10462,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'RYANLOREY@OUTLOOK.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150428155745'
+,p_last_upd_yyyymmddhh24miss=>'20150428173045'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3086292544628570099)
@@ -10386,33 +10591,37 @@ wwv_flow_api.create_page_item(
 ,p_attribute_01=>'Y'
 );
 wwv_flow_api.create_page_item(
- p_id=>wwv_flow_api.id(3086296270848570802)
-,p_name=>'P5_ARL_EMPLOYEE_EMPLOYEE_ID'
+ p_id=>wwv_flow_api.id(3753824089887123220)
+,p_name=>'P5_ACTIVE_EMPLOYEES_GROUPED'
 ,p_is_required=>true
-,p_item_sequence=>20
+,p_item_sequence=>30
 ,p_item_plug_id=>wwv_flow_api.id(3086292544628570099)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>'Employee ID'
+,p_prompt=>'Employee'
 ,p_source=>'ARL_EMPLOYEE_EMPLOYEE_ID'
 ,p_source_type=>'DB_COLUMN'
-,p_display_as=>'NATIVE_SELECT_LIST'
-,p_named_lov=>'ACTIVE_EMPLOYEES_NOT_MEMBERS'
+,p_display_as=>'PLUGIN_COM.ORACLE.APEX.GROUP_SELECTLIST'
 ,p_lov=>wwv_flow_utilities.join(wwv_flow_t_varchar2(
-'select employee_name as d,',
-'       employee_id as r',
-'  from ARL_Employee',
-'  where employee_status = ''A'' and employee_id not in',
-'       (select ARL_Employee_employee_id from ARL_Member)',
-' order by 1'))
-,p_cSize=>32
-,p_cMaxlength=>255
+'SELECT empl1.employee_name as d,',
+'              empl1.employee_id as r,',
+'              empl2.employee_division',
+'FROM ARL_Employee empl1, ARL_Employee empl2',
+'WHERE empl1.employee_status = ''A'' AND ',
+'              empl1.employee_division = empl2.employee_division AND',
+'              empl1.employee_id NOT IN (',
+'                 SELECT mem.ARL_Employee_employee_id',
+'                 FROM ARL_Member mem',
+'              )',
+'ORDER BY empl2.employee_division, empl1.employee_name;'))
+,p_lov_display_null=>'YES'
+,p_cSize=>30
+,p_cMaxlength=>4000
 ,p_cHeight=>1
 ,p_label_alignment=>'RIGHT'
-,p_field_template=>wwv_flow_api.id(2593534228149640098)
+,p_field_alignment=>'LEFT-CENTER'
+,p_field_template=>wwv_flow_api.id(2593534088038639998)
 ,p_item_template_options=>'#DEFAULT#'
 ,p_lov_display_extra=>'YES'
-,p_attribute_01=>'NONE'
-,p_attribute_02=>'N'
 );
 wwv_flow_api.create_page_da_event(
  p_id=>wwv_flow_api.id(3086293783677570113)
@@ -10439,7 +10648,7 @@ wwv_flow_api.create_page_process(
 ,p_process_type=>'NATIVE_FORM_FETCH'
 ,p_process_name=>'Fetch Row from ARL_MEMBER'
 ,p_attribute_02=>'ARL_MEMBER'
-,p_attribute_03=>'P5_LIST_SEQ_ID'
+,p_attribute_03=>'P5_ACTIVE_EMPLOYEES_GROUPED'
 ,p_attribute_04=>'LIST_SEQ_ID'
 ,p_process_when=>'SELECT ARL_Employee_employee_id FROM ARL_Admin WHERE ARL_Employee_employee_id = :P1_PICK_SESSION_USER'
 ,p_process_when_type=>'EXISTS'
@@ -10451,7 +10660,7 @@ wwv_flow_api.create_page_process(
 ,p_process_type=>'NATIVE_FORM_PROCESS'
 ,p_process_name=>'Process Row of ARL_MEMBER'
 ,p_attribute_02=>'ARL_MEMBER'
-,p_attribute_03=>'P5_LIST_SEQ_ID'
+,p_attribute_03=>'P5_ACTIVE_EMPLOYEES_GROUPED'
 ,p_attribute_04=>'LIST_SEQ_ID'
 ,p_attribute_11=>'I:U:D'
 ,p_error_display_location=>'INLINE_IN_NOTIFICATION'
@@ -10642,8 +10851,8 @@ wwv_flow_api.create_page(
 ,p_page_is_public_y_n=>'N'
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
-,p_last_updated_by=>'LDCBISHOP@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150428170154'
+,p_last_updated_by=>'RYANLOREY@OUTLOOK.COM'
+,p_last_upd_yyyymmddhh24miss=>'20150428171932'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3086363024466591054)
@@ -10819,6 +11028,23 @@ wwv_flow_api.create_page_plug(
 ,p_plug_query_row_template=>1
 );
 wwv_flow_api.create_page_button(
+ p_id=>wwv_flow_api.id(3752133025409976307)
+,p_button_sequence=>20
+,p_button_plug_id=>wwv_flow_api.id(3086363024466591054)
+,p_button_name=>'UPLOAD_LISTS'
+,p_button_action=>'REDIRECT_PAGE'
+,p_button_template_options=>'#DEFAULT#'
+,p_button_template_id=>wwv_flow_api.id(2593534582825640256)
+,p_button_image_alt=>'Upload Lists'
+,p_button_position=>'RIGHT_OF_IR_SEARCH_BAR'
+,p_button_redirect_url=>'f?p=&APP_ID.:41:&SESSION.::&DEBUG.:::'
+,p_button_condition=>'SELECT ARL_Employee_employee_id FROM ARL_Admin WHERE ARL_Employee_employee_id = :P1_PICK_SESSION_USER;'
+,p_button_condition_type=>'EXISTS'
+,p_grid_new_grid=>false
+,p_grid_new_row=>'N'
+,p_grid_new_column=>'N'
+);
+wwv_flow_api.create_page_button(
  p_id=>wwv_flow_api.id(3086368629430591063)
 ,p_button_sequence=>30
 ,p_button_plug_id=>wwv_flow_api.id(3086363024466591054)
@@ -10829,21 +11055,6 @@ wwv_flow_api.create_page_button(
 ,p_button_image_alt=>'Create'
 ,p_button_position=>'RIGHT_OF_IR_SEARCH_BAR'
 ,p_button_redirect_url=>'f?p=&APP_ID.:8:&SESSION.::&DEBUG.:8'
-,p_grid_new_grid=>false
-);
-wwv_flow_api.create_page_button(
- p_id=>wwv_flow_api.id(3752133025409976307)
-,p_button_sequence=>40
-,p_button_plug_id=>wwv_flow_api.id(3086363024466591054)
-,p_button_name=>'UPLOAD_LISTS'
-,p_button_action=>'REDIRECT_PAGE'
-,p_button_template_options=>'#DEFAULT#'
-,p_button_template_id=>wwv_flow_api.id(2593534582825640256)
-,p_button_image_alt=>'Upload Lists'
-,p_button_position=>'TOP'
-,p_button_redirect_url=>'f?p=&APP_ID.:41:&SESSION.::&DEBUG.:::'
-,p_button_condition=>'SELECT ARL_Employee_employee_id FROM ARL_Admin WHERE ARL_Employee_employee_id = :P1_PICK_SESSION_USER;'
-,p_button_condition_type=>'EXISTS'
 ,p_grid_new_grid=>false
 );
 wwv_flow_api.create_page_process(
@@ -11588,7 +11799,7 @@ wwv_flow_api.create_page(
 ,p_cache_timeout_seconds=>21600
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'RYANLOREY@OUTLOOK.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150428040906'
+,p_last_upd_yyyymmddhh24miss=>'20150428171855'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3683426030496324667)
@@ -13101,7 +13312,7 @@ wwv_flow_api.create_page(
 ,p_cache_timeout_seconds=>21600
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'RYANLOREY@OUTLOOK.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150428091852'
+,p_last_upd_yyyymmddhh24miss=>'20150428171846'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3436619910360924075)
